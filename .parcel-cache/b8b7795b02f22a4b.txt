@@ -69,7 +69,7 @@
 59D:\goit\goit-js-hw-08\node_modules\abortcontroller-polyfill133234766547982342 1
 66D:\goit\goit-js-hw-08\node_modules\caniuse-lite\data\regions\KR.js133234768344986514 0
 61D:\goit\goit-js-hw-08\node_modules\svgo\plugins\reusePaths.js133234766549288813 0
-26D:\goit\goit-js-hw-08\dist133234778741804735 1
+26D:\goit\goit-js-hw-08\dist133235201816840503 1
 66D:\goit\goit-js-hw-08\node_modules\caniuse-lite\data\regions\MD.js133234768345101584 0
 57D:\goit\goit-js-hw-08\node_modules\@parcel\diagnostic\src133234766583333350 1
 58D:\goit\goit-js-hw-08\node_modules\csso\lib\replace\atrule133234766548957003 1
@@ -143,7 +143,7 @@
 68D:\goit\goit-js-hw-08\node_modules\@parcel\reporter-cli\package.json133234766565081252 0
 77D:\goit\goit-js-hw-08\node_modules\css-tree\lib\syntax\function\expression.js133234766549168783 0
 77D:\goit\goit-js-hw-08\node_modules\@parcel\utils\test\input\config\empty.toml133234766560041647 0
-36D:\goit\goit-js-hw-08\src\index.html133234778511617487 0
+36D:\goit\goit-js-hw-08\src\index.html133234792131294059 0
 72D:\goit\goit-js-hw-08\node_modules\caniuse-lite\data\features\colr-v1.js133234768343845945 0
 73D:\goit\goit-js-hw-08\node_modules\yaml\browser\dist\warnings-df54cb69.js133234766548957003 0
 80D:\goit\goit-js-hw-08\node_modules\@parcel\fs-search\fs-search.darwin-arm64.node133234766580777927 0
@@ -4712,6 +4712,6 @@
 54D:\goit\goit-js-hw-08\dist\03-feedback.1f48da8c.js.map133234778741613584 0
 50D:\goit\goit-js-hw-08\dist\03-feedback.a72bb21a.js133234778741613584 0
 51D:\goit\goit-js-hw-08\dist\03-feedback.bb91f3cc.css133234778741613584 0
-37D:\goit\goit-js-hw-08\dist\index.html133234778741613584 0
+37D:\goit\goit-js-hw-08\dist\index.html133235201816824056 0
 46D:\goit\goit-js-hw-08\assets\repo-settings.png133106460800000000 0
 39D:\goit\goit-js-hw-08\.github\workflows133234760568096987 1
