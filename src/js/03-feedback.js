@@ -11,9 +11,9 @@ const FORM_DATA_KEY = 'feedback-form-state';
 refs.formEl.addEventListener('input', throttle(onFormInput, 500));
 refs.formEl.addEventListener('submit', onFormSubmit);
 
+const formData = {};
 savedDataCheck();
 
-const formData = {};
 function onFormInput(event) {
   event.preventDefault();
   formData[event.target.name] = event.target.value;
@@ -27,11 +27,14 @@ function savedDataCheck() {
   if (savedData) {
     refs.inputEl.value = savedData.email || '';
     refs.textAreaEl.value = savedData.message || '';
+    formData[refs.inputEl.name] = refs.inputEl.value;
+    formData[refs.textAreaEl.name] = refs.textAreaEl.value;
   }
 }
 
 function onFormSubmit(event) {
   event.preventDefault();
+
   console.log(JSON.parse(localStorage.getItem(FORM_DATA_KEY)));
   event.target.reset();
   localStorage.removeItem(FORM_DATA_KEY);
