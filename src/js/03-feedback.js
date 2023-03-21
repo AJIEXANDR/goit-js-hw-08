@@ -11,7 +11,7 @@ const FORM_DATA_KEY = 'feedback-form-state';
 refs.formEl.addEventListener('input', throttle(onFormInput, 500));
 refs.formEl.addEventListener('submit', onFormSubmit);
 
-const formData = {};
+let formData = {};
 savedDataCheck();
 
 function onFormInput(event) {
@@ -34,8 +34,13 @@ function savedDataCheck() {
 
 function onFormSubmit(event) {
   event.preventDefault();
-
+  if (refs.inputEl.value === '') {
+    return alert('Please fill your email');
+  } else if (refs.textAreaEl.value === '') {
+    return alert('Please write your message');
+  }
   console.log(JSON.parse(localStorage.getItem(FORM_DATA_KEY)));
   event.target.reset();
   localStorage.removeItem(FORM_DATA_KEY);
+  formData = {};
 }
